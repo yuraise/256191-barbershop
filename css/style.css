@@ -4,11 +4,14 @@ body {
 	font-weight: bold;
 	line-height: 24px;
 	color: #000000;
+	min-width: 1200px;
+/*	min-height: 1170px;*/
 }
 
 .page-title {
 	font-size: 30px;
 	line-height: 42px;
+	outline: 1px solid yellow;
 }
 
 .item-title {
@@ -19,4 +22,160 @@ body {
 .content-title {
 	font-size: 24px;
 	line-height: 30px;
+}
+
+.page-header {
+	width: 1200px;
+	margin: 0 auto;
+	outline: 1px solid green;
+}
+
+.page-header .container {
+	min-height: 72px;
+}
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	outline: 1px solid grey;
+/*	background-color: #ccc;*/
+}
+
+.logo {
+	width: 150px;
+	float: left;
+	outline: 1px solid yellow;
+	margin-right: 5px;
+}
+
+.main-menu {
+	width: 640px;
+	float: left;
+	outline: 1px solid yellow;
+}
+
+.user-block {
+	width: 140px;
+	float: right;
+	outline: 1px solid yellow;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.main-menu li {
+	display: inline-block;
+}
+
+main {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	outline: 1px solid green;
+}
+
+main .container {
+	padding-top: 56px;
+	padding-bottom: 50px;
+}
+
+.breadcrumbs {
+	margin-bottom: 50px;
+	outline: 1px solid yellow;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+}
+
+.catalog-filters {
+	float: left;
+	width: 240px;
+	outline: 1px solid yellow;
+}
+
+.catalog {
+	float: right;
+	width: 700px;
+	vertical-align: top;
+	outline: 1px solid yellow;
+}
+
+.catalog-item {
+	display: inline-block;
+	width: 220px;
+	margin-right: 16px;
+	margin-bottom: 20px;
+	outline: 1px solid green;
+}
+.catalog-item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.pagination {
+	clear: both;
+	margin-left: 240px;
+	margin-top: 20px;
+	outline: 1px solid yellow;
+}
+
+.pagination li {
+	display: inline-block;
+}
+
+.page-footer {
+	width: 1200px;
+	min-height: 190px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 60px;
+	padding-bottom: 0px;
+	outline: 1px solid green;
+}
+
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+}
+
+.footer-social {
+	float: left;
+	width: 180px;
+}
+
+.footer-copyright {
+	float: right;
+	width: 140px;
+}
+
+.item-photos {
+	float: left;
+	width: 460px;
+	outline: 1px solid yellow;
+}
+
+.item-info {
+	float: right;
+	width: 390px;
+	outline: 1px solid yellow;
+}
+
+.in-stock {
+	text-align: left;
+}
+
+.article {
+	text-align: right;
+}
+
+.item-section {
+	outline: 1px solid yellow;
+}
+
+.item-availability {
+	outline: 1px solid yellow;
 }
