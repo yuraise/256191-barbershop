@@ -5,7 +5,6 @@ body {
 	line-height: 24px;
 	color: #000000;
 	min-width: 1200px;
-/*	min-height: 1170px;*/
 }
 
 .page-title {
@@ -25,7 +24,6 @@ body {
 }
 
 .page-header {
-	width: 1200px;
 	margin: 0 auto;
 	outline: 1px solid green;
 }
@@ -53,6 +51,7 @@ body {
 	width: 640px;
 	float: left;
 	outline: 1px solid yellow;
+	font-size: 0;
 }
 
 .user-block {
@@ -68,10 +67,10 @@ body {
 }
 .main-menu li {
 	display: inline-block;
+	font-size: 14px;
 }
 
 main {
-	width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
 	outline: 1px solid green;
@@ -85,10 +84,12 @@ main .container {
 .breadcrumbs {
 	margin-bottom: 50px;
 	outline: 1px solid yellow;
+	font-size: 0;
 }
 
 .breadcrumbs li {
 	display: inline-block;
+	font-size: 14px;
 }
 
 .catalog-filters {
@@ -102,14 +103,16 @@ main .container {
 	width: 700px;
 	vertical-align: top;
 	outline: 1px solid yellow;
+	font-size: 0;
 }
 
 .catalog-item {
 	display: inline-block;
 	width: 220px;
-	margin-right: 16px;
+	margin-right: 20px;
 	margin-bottom: 20px;
 	outline: 1px solid green;
+	font-size: 14px;
 }
 .catalog-item:nth-child(3n) {
 	margin-right: 0;
@@ -120,14 +123,15 @@ main .container {
 	margin-left: 240px;
 	margin-top: 20px;
 	outline: 1px solid yellow;
+	font-size: 0;
 }
 
 .pagination li {
 	display: inline-block;
+	font-size: 14px;
 }
 
 .page-footer {
-	width: 1200px;
 	min-height: 190px;
 	margin-right: auto;
 	margin-left: auto;
@@ -165,11 +169,11 @@ main .container {
 }
 
 .in-stock {
-	text-align: left;
+	float: left;
 }
 
 .article {
-	text-align: right;
+	float: right;
 }
 
 .item-section {
