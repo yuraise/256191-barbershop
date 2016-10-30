@@ -37,7 +37,6 @@ body {
 	padding: 0 10px;
 	margin: 0 auto;
 	outline: 1px solid grey;
-/*	background-color: #ccc;*/
 }
 
 .logo {
@@ -52,6 +51,7 @@ body {
 	float: left;
 	outline: 1px solid yellow;
 	font-size: 0;
+	vertical-align: top;
 }
 
 .user-block {
@@ -85,6 +85,8 @@ main .container {
 	margin-bottom: 50px;
 	outline: 1px solid yellow;
 	font-size: 0;
+	vertical-align: top;
+
 }
 
 .breadcrumbs li {
@@ -104,6 +106,7 @@ main .container {
 	vertical-align: top;
 	outline: 1px solid yellow;
 	font-size: 0;
+
 }
 
 .catalog-item {
@@ -124,6 +127,7 @@ main .container {
 	margin-top: 20px;
 	outline: 1px solid yellow;
 	font-size: 0;
+	vertical-align: top;
 }
 
 .pagination li {
@@ -181,5 +185,17 @@ main .container {
 }
 
 .item-availability {
+	outline: 1px solid yellow;
+}
+
+.small-photos {
+	font-size: 0;
+	vertical-align: top;
+}
+
+.small-photos a {
+	display: inline-block;
+	outline: 1px solid yellow;
+	font-size: 14px;
 	outline: 1px solid yellow;
 }
